@@ -35,7 +35,6 @@ const StyledContainer = styled.div`
  display: flex;
  flex-direction: column;
  justify-content: center;
-
 `
 
 function ImageWithSpace ({ children, image }) {
