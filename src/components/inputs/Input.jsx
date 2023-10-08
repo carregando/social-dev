@@ -22,7 +22,7 @@ function Input ({ label, ...props }) {
   return (
     <InputContainer>
      <StyledLabel>{label}</StyledLabel>
-     <StyledInput placeholder={label}{...props}/>
+     <StyledInput placeholder={label} {...props}/>
     </InputContainer>
   )
 }
