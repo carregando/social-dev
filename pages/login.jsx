@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import Link from "next/link"
-import { set, useForm } from "react-hook-form"
+import { useForm } from "react-hook-form"
 import { joiResolver } from '@hookform/resolvers/joi'
 import axios from "axios"
 import { useRouter } from 'next/router'
@@ -52,7 +52,7 @@ function LoginPage () {
           message: 'Usuário ou e-mail não encontrado.'
         })
       }
-      console.log(response.data)
+      (response.data)
     }
   }
 
