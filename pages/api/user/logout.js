@@ -7,7 +7,7 @@ const logout = createHandler()
 
 logout.post(async (req, res) => {
     req.session.destroy()
-    res.sendDate({ok: true})
+    res.send({ok: true})
 })
 
 export default withIronSessionApiRoute(logout, ironConfig)
