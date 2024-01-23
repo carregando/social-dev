@@ -23,7 +23,7 @@ const LastPostText = styled(H3)`
 const PostContainer = styled.div`
  display: flex;
  flex-direction: column;
- gap 20px;
+ gap: 20px;
  margin: 20px 0;
 `
 const fetcher = url => axios.get(url).then(res => res.data)
