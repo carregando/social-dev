@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react"
 import styled from "styled-components"
 import { withIronSessionSsr } from 'iron-session/next'
 import axios from "axios"
@@ -33,8 +32,8 @@ function HomePage ({ user }) {
 
   return (
     <>
-     <title>Social Dev</title>
-     <Navbar/>
+      <title>Social Dev</title>
+      <Navbar/>
       <Content>
         <Container>
           <CreatePost username={user.user} />
